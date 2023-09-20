@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Compras</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Listado de Compras</h1>
+    <div class="container">
+        <div class="izquierda">
+            <form id="form">
+                <label>Escribe tu Mandado</label>
+                <br><br>
+                <textarea id="input" cols="30" rows="10"></textarea>
+                <br><br>
+                <button type="submit">Guardar</button>
+            </form>
+
+        </div>
+        <div class="derecha">
+            <h3>Compras a realizar</h3>
+            <div id="posts"></div>
+            
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

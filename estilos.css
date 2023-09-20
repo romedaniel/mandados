@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+    margin: 0 50px;
+    background: linear-gradient(135deg,pink,rgb(0, 140, 255));
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    gap: 50px;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#posts{
+    width: 230px;
+}
+
+#posts div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.opciones{
+    display: flex;
+    gap: 25px;
+}
+
+i{
+    cursor: pointer;
+}
